@@ -1,0 +1,1 @@
+execute as @n[type=!#sipping_with_style:tommy_gun_not_hit,tag=!sws.tommy_gun_user,distance=..15] run function sipping_with_style:tommy_gun/damage

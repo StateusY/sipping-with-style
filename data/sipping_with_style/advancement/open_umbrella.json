@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {"custom_id": "umbrella_closed"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sipping_with_style:umbrella/open"
+  }
+}
