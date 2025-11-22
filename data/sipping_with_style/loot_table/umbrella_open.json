@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Umbrella",
+                "minecraft:item_model": "sipping_with_style:umbrella_open",
+                "!minecraft:food": {},
+                "minecraft:lore": [
+                  "Open"
+                ],
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:attribute_modifiers"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "34567123465",
+                    "amount": 1,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:consumable": {
+                  "consume_seconds": 9999,
+                  "animation": "none",
+                  "on_consume_effects": []
+                },
+                "minecraft:blocks_attacks": {
+                  "block_sound": "minecraft:item.shield.block"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/acacia_sign"
+}

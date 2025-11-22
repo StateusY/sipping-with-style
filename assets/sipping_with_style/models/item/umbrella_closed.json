@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sipping_with_style:item/umbrella_closed"
+  }
+}

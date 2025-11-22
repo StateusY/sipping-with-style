@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Top Hat",
+                "minecraft:item_model": "sipping_with_style:top_hat",
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "!minecraft:food": {},
+                "!minecraft:consumable": {},
+                "minecraft:bundle_contents": []
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/acacia_sign"
+}
