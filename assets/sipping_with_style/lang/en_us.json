@@ -1,4 +1,7 @@
 {
     "sws.tooltip": "Sipping with Style",
-    "sws.loaded": "loaded!"
+    "sws.loaded": "loaded!",
+    
+    "subtitles.sws.item.tommy_gun_shot": "Tommy Gun Shot",
+    "subtitles.sws.item.tommy_gun_empty": "Tommy Gun Empty"
 }

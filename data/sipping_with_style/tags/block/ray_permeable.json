@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#minecraft:air",
+    "minecraft:barrier",
+    "minecraft:structure_void",
+    "minecraft:end_portal",
+    "minecraft:end_gateway",
+    "minecraft:leaf_litter",
+    "#minecraft:bars",
+    "#minecraft:banners",
+    "#minecraft:flowers"
+  ]
+}

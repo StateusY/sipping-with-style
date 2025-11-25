@@ -19,7 +19,27 @@
                 "minecraft:item_model": "sipping_with_style:umbrella_open",
                 "!minecraft:food": {},
                 "minecraft:lore": [
-                  "Open"
+                  [
+                    {
+                    "text": "Open",
+                    "color": "gray",
+                    "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "sipping_with_style:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "sws.tooltip",
+                      "color": "white",
+                      "font": "sipping_with_style:tooltip",
+                      "italic": false
+                    }
+                  ]
                 ],
                 "minecraft:attribute_modifiers": [
                   {

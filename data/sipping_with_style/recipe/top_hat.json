@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "minecraft:gray_wool",
+    "S": "minecraft:gray_carpet",
+    "I": "minecraft:iron_nugget"
+  },
+  "pattern": [
+    " P ",
+    "PIP",
+    "SSS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bundle",
+    "components": {
+      "minecraft:item_name": "Top Hat",
+      "minecraft:item_model": "sipping_with_style:top_hat",
+      "minecraft:lore": [
+        [
+          {
+            "text": "0 ",
+            "color": "white",
+            "font": "sipping_with_style:icon",
+            "italic": false
+          },
+          {
+            "translate": "sws.tooltip",
+            "color": "white",
+            "font": "sipping_with_style:tooltip",
+            "italic": false
+          }
+        ]
+      ],
+      "minecraft:equippable": {
+        "slot": "head"
+      }
+    }
+  }
+}

@@ -16,12 +16,38 @@
                   "text": "Looking Glass",
                   "color": "aqua"
                 },
+                "minecraft:lore": [
+                  [
+                    {
+                    "text": "RMB to spawn Veil",
+                    "color": "gray",
+                    "italic": false
+                    }
+                  ],
+                  [
+                    {
+                    "text": "Shift RMB to clear all Veils",
+                    "color": "gray",
+                    "italic": false
+                    }                
+                  ],
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "sipping_with_style:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "sws.tooltip",
+                      "color": "white",
+                      "font": "sipping_with_style:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
                 "minecraft:item_model": "sipping_with_style:looking_glass",
                 "!minecraft:food": {},
-                "minecraft:lore": [
-                  "RMB to spawn Veil",
-                  "Shift RMB to clear all Veils"
-                ],
                 "minecraft:consumable": {
                   "consume_seconds": 99999,
                   "animation": "none",

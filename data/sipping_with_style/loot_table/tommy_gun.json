@@ -16,14 +16,34 @@
                   "text": "Tommy Gun",
                   "color": "aqua"
                 },
+                "minecraft:lore": [
+                  [
+                    {
+                    "text": "Consumes Iron Nuggets",
+                    "color": "gray",
+                    "italic": false
+                    }                  
+                  ],
+                  [
+                    {
+                      "text": "0 ",
+                      "color": "white",
+                      "font": "sipping_with_style:icon",
+                      "italic": false
+                    },
+                    {
+                      "translate": "sws.tooltip",
+                      "color": "white",
+                      "font": "sipping_with_style:tooltip",
+                      "italic": false
+                    }
+                  ]
+                ],
                 "minecraft:item_model": "sipping_with_style:tommy_gun",
                 "!minecraft:food": {},
-                "minecraft:lore": [
-                  "Consumes Iron Nuggets"
-                ],
                 "minecraft:consumable": {
                   "consume_seconds": 99999,
-                  "animation": "none",
+                  "animation": "bow",
                   "sound": "minecraft:intentionally_empty",
                   "has_consume_particles": false,
                   "on_consume_effects": []

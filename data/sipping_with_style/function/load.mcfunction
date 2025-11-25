@@ -3,3 +3,4 @@ tellraw @a [{"text": "0 ","color": "white","font": "sipping_with_style:icon","it
 
 # raycast
 scoreboard objectives add sws.raycast_steps dummy
+scoreboard objectives add sws.tommy_target_health dummy

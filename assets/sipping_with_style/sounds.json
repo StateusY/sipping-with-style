@@ -1,0 +1,20 @@
+{
+  "item.tommy_gun.shot": {
+    "sounds": [
+      {
+        "name": "sipping_with_style:item/tommy_gun/tommy_gun_shot",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.sws.item.tommy_gun_shot"
+  },
+  "item.tommy_gun.empty": {
+    "sounds": [
+      {
+        "name": "sipping_with_style:item/tommy_gun/tommy_gun_empty",
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.sws.item.tommy_gun_empty"
+  }
+}
