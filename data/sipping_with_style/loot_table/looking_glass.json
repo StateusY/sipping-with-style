@@ -16,7 +16,7 @@
                   "text": "Looking Glass",
                   "color": "aqua"
                 },
-                "minecraft:item_model": "minecraft:glass_pane",
+                "minecraft:item_model": "sipping_with_style:looking_glass",
                 "!minecraft:food": {},
                 "minecraft:lore": [
                   "RMB to spawn Veil",

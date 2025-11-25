@@ -3,15 +3,12 @@
     "requirement": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "components": {
-                "minecraft:custom_data": {
-                  "custom_id": "looking_glass"
-                }
-              }
-            }
+        "item": {
+          "items": [
+            "minecraft:poisonous_potato"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {"custom_id": "looking_glass"}
           }
         }
       }
